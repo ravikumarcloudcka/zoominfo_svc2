@@ -11,5 +11,6 @@ RUN npm install
 # Bundle app source
 COPY service2.js .
 
+#Port
 EXPOSE 9090
 CMD [ "node", "service2.js" ]
